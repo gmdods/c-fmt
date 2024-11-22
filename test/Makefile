@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wpedantic -Wextra \
 	 -Wno-unused-variable -Wno-unused-parameter -Wno-unused-function \
-	 -march=native -std=c11
+	 -march=native -std=gnu11
 TEST = -Og -g
 PROD = -O3
 
